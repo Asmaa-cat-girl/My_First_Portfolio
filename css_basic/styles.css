@@ -1,54 +1,54 @@
 body,
 main {
-  display: flex; /* Make both body and main flex containers */
+  display: flex;
 }
 
 body {
-  flex-direction: column; /* Set body layout to column */
-  height: 100vh; /* Set body height to 100 viewport height */
-  font-family: Arial, sans-serif; /* Set a default font */
-  margin: 0; /* Remove default margin from body */
-  padding: 0; /* Remove default padding from body */
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3 {
-  margin: 1em 0; /* Set margin for headings */
+  margin: 1em 0;
 }
 
 main {
-  flex: auto; /* Allow main to take up remaining space */
-  flex-direction: row; /* Set main layout to row */
+  flex: auto; 
+  flex-direction: row;
 }
 
 article,
 aside {
-  flex: 1; /* Set default flex value for both */
+  flex: 1;
 }
 
 article {
-  flex: 2; /* Set article to take up 2/3 of the space */
-  overflow-y: auto; /* Allow vertical scrolling in article */
+  flex: 2;
+  overflow-y: auto;
 }
 
 aside {
-  flex: 1; /* Set aside to take up 1/3 of the space */
-  overflow-y: auto; /* Allow vertical scrolling in aside */
+  flex: 1;
+  overflow-y: auto;
 }
 
 p {
-  line-height: 1.5; /* Set line spacing for paragraphs */
+  line-height: 1.5;
 }
 
 a {
-  color: #007bff; /* Set link color */
-  text-decoration: none; /* Remove underline from links */
+  color: #007bff;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #0056b3; /* Change link color on hover */
+  color: #0056b3;
 }
 
 img {
-  max-width: 100%; /* Scale images to fit container */
-  height: auto; /* Maintain image aspect ratio */
+  max-width: 100%;
+  height: auto;
 }
